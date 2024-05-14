@@ -1,0 +1,118 @@
+Variables 
+const vacationVibes =querySelector(#vacationVibeselement)
+const favorites =querySelector(#favorites element)
+const USA =querySelector(USA element)
+const Caribbean =querySelector(Caribbean element)
+const India =querySelector(India element)
+const Italy =querySelector(Italy element)
+const Japan =querySelector(Japan element)
+const Middle East =querySelector(Middle East element)
+
+const region name =querySelector(region name element)
+const regionImage =querySelector(region image element)
+const radioFavorites =querySelector(add to favorites button)
+const recipeFavorites =querySelector(add to favorites button)
+const recipeName =querySelector(name of dish element)
+const recipeLink =querySelector(link to recipe)
+const recipeImage =querySelector(image of recipe)
+
+//Storage Area Variables//
+
+
+1. Vacation Vibes 
+On click redirects to index.html 
+
+2. Favorites 
+On click redirects to favorites.html
+
+3. USA 
+On click redirects to results.html
+//added the region image to the results page//
+create image element with variable name regionImage 
+set the source of our regionImage element to a photo of the country in the assets folder 
+append regionImage to a section on the results page 
+//sets region name on results.html//
+sets the region name element
+//API call//
+create a function called getApi()
+const requestUrl =apiLink
+create fetch function 
+create forloop to get results from API 
+set results to be results from API
+
+
+4. Caribbean 
+On click redirects to results.html 
+//added the region image to the results page//
+create image element with variable name regionImage 
+set the source of our regionImage element to a photo of the country in the assets folder 
+append regionImage to a section on the results page 
+//sets region name on results.html//
+sets the region name element
+//API call//
+create a function called getApi()
+const requestUrl =apiLink
+create fetch function 
+create forloop to get results from API 
+set results to be results from API
+
+5. India 
+On click redirects to results.html
+//added the region image to the results page//
+create image element with variable name regionImage 
+set the source of our regionImage element to a photo of the country in the assets folder 
+append regionImage to a section on the results page 
+//sets region name on results.html//
+sets the region name element
+//API call//
+create a function called getApi()
+const requestUrl =apiLink
+create fetch function 
+create forloop to get results from API 
+set results to be results from API
+
+6. Italy
+On click redirects to results.html
+//added the region image to the results page//
+create image element with variable name regionImage 
+set the source of our regionImage element to a photo of the country in the assets folder 
+append regionImage to a section on the results page 
+//sets region name on results.html//
+sets the region name element
+//API call//
+create a function called getApi()
+const requestUrl =apiLink
+create fetch function 
+create forloop to get results from API 
+set results to be results from API
+
+7. Japan
+On click redirects to results.html
+//added the region image to the results page//
+create image element with variable name regionImage 
+set the source of our regionImage element to a photo of the country in the assets folder 
+append regionImage to a section on the results page 
+//sets region name on results.html//
+sets the region name element
+//API call//
+create a function called getApi()
+const requestUrl =apiLink
+create fetch function 
+create forloop to get results from API 
+set results to be results from API
+
+8. Middle East 
+On click redirects to results.html
+//added the region image to the results page//
+create image element with variable name regionImage 
+set the source of our regionImage element to a photo of the country in the assets folder 
+append regionImage to a section on the results page 
+//sets region name on results.html//
+sets the region name element
+//API call//
+create a function called getApi()
+const requestUrl =apiLink
+create fetch function 
+create forloop to get results from API 
+set results to be results from API
+
