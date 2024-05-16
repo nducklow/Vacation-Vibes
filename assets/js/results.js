@@ -61,8 +61,13 @@ function getRecipeUsa() {
         recipe.appendChild(recipeName)
         recipe.appendChild(recipeImage)
         recipe.appendChild(recipeUrl)
+        
 
       }
+      regionName.textContent = "USA"
+      const rImage = document.createElement('img')
+      rImage.src = "./assets/images/usa.png"
+      regionImage.appendChild(rImage)
     });
   }
 
@@ -106,6 +111,10 @@ function getRecipeCaribbean() {
         recipe.appendChild(recipeUrl)
 
       }
+      regionName.textContent = "Caribbean"
+      const rImage = document.createElement('img')
+      rImage.src = "./assets/images/caribbean.png"
+      regionImage.appendChild(rImage)
     });
   }
 
@@ -121,7 +130,7 @@ function getStationCaribbean() {
       for (const station of data) {
         const stationName = document.createElement('h2')
         radioStream.src = station.url_resolved
-        radioImage.src ="./assets/images/carribeanRadioImage.png"
+        radioImage.src ="./assets/images/caribbeanRadioImage.png"
         stationName.textContent = station.name
         radioStation.appendChild(stationName)
 
@@ -151,6 +160,10 @@ function getRecipeIndia() {
         recipe.appendChild(recipeUrl)
 
       }
+      regionName.textContent = "India"
+      const rImage = document.createElement('img')
+      rImage.src = "./assets/images/india.png"
+      regionImage.appendChild(rImage)
     });
   }
 
@@ -196,6 +209,10 @@ function getRecipeItaly() {
         recipe.appendChild(recipeUrl)
 
       }
+      regionName.textContent = "Italy"
+      const rImage = document.createElement('img')
+      rImage.src = "./assets/images/italy.png"
+      regionImage.appendChild(rImage)
     });
   }
 
@@ -239,6 +256,10 @@ function getRecipeJapan() {
         recipe.appendChild(recipeUrl)
 
       }
+      regionName.textContent = "Japan"
+      const rImage = document.createElement('img')
+      rImage.src = "./assets/images/japan.png"
+      regionImage.appendChild(rImage)
     });
   }
 
@@ -284,6 +305,10 @@ function getRecipeMiddleEast() {
         recipe.appendChild(recipeUrl)
 
       }
+      regionName.textContent = "Middle East"
+      const rImage = document.createElement('img')
+      rImage.src = "./assets/images/middleEast.png"
+      regionImage.appendChild(rImage)
     });
   }
 
