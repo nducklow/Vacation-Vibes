@@ -6,14 +6,13 @@
 } 
 
 header {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     padding: 3%;
     background-color: var(--mcolor);
     color: var(--tcolor)
   }
-  
   h1 {
     font-size: 300%;
   }  
@@ -23,21 +22,23 @@ header {
   } 
     
   nav {
-    padding: 30px;
+    display: block;
+    padding: 1%;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    ;
 }
  
  main { padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #afdde5;
     
-
  }
  
 
- 
+body {
+}
  
 
 

@@ -4,19 +4,22 @@
     <title>Vacation Vibes</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
     
 </head> 
 
+<header> 
+    <nav>  
+        <a id="vacationVibes" href="./index.html">Vacation Vibes</a> 
+        <button class="js-modal-trigger" data-target="modal-js-example">
+            Meep Me
+          </button>
+    </nav> 
+    
+</header> 
 <body>  
-    <header> 
-        <nav>  
-            <a id="vacationVibes" href="./index.html">Vacation Vibes</a> 
-            <a id="favorites" href="./favorites.html">Favorites</a>  
-            
-        </nav> 
-        
-    </header> 
+ 
 
      <div>  
         <h2>Vacation Vibes</h2> 
@@ -25,28 +28,55 @@
     <main class="container">    
         <div class="card">  
             <a id="usa" href="./results.html">
-                <img src="./assets/images/usa.png" />USA
+                <img src="./assets/images/usa.png" alt="usa 66 burger"/> <h2>USA</h2>
             </a> 
+            </div>
+            <div class="card">  
             <a id="caribbean" href="./results.html">
-                <img src="./assets/images/caribbean.png" />Caribbean
+                <img src="./assets/images/caribbean.png" alt="caribbean beach"/> <h2>Caribbean</h2>
             </a> 
+            </div>
+            <div class="card">  
             <a id="india" href="./results.html">
-                <img src= "./assets/images/india.png" /> India
+                <img src= "./assets/images/india.png" alt="india jungle palace" /> <h2>India</h2>
             </a> 
+            
 
         </div>  
-        <div> 
+        <div class="card"> 
             <a id="italy" href="./results.html">
-                <img src="./assets/images/italy.png" />Italy
-            </a>
+                <img src="./assets/images/italy.png" alt="italy coastal cliff town"/> <h2>Italy</h2>
+            </div>
+            <div class="card"> 
             <a id="japan" href="./results.html">
-                <img src="./assets/images/japan.png" />Japan
+                <img src="./assets/images/japan.png" alt="japan cherry blossom castle"/><h2>Japan</h2>
+            </div>
+            <div class="card"> 
             </a> 
             <a id="middleEast" href="./results.html">
-                <img src="./assets/images/middleEast.png" />Middle East
+                <img src="./assets/images/middleEast.png" alt="middle east desert camel" /> <h2>Middle East</h2>
             </a> 
         </div>
-        
+        <div id="modal-js-example" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+              <header class="modal-card-head">
+                <p class="modal-card-title">Vacation Vibes!</p>
+                <!-- <button class="delete" aria-label="close"></button> -->
+              </header>
+              <section class="modal-card-body">
+               Welcome to Vacation Vibes!
+              </section>
+              <footer class="modal-card-foot">
+                <div class="buttons">
+                  <button class="button is-success">Lets Go! :D</button>
+                </div>
+              </footer>
+            </div>
+          </div>  
+          <!-- <button class="modal-close is-large" aria-label="close"></button> -->
+        </div>
+       
     </main>
      
     <footer class="footer"> 
@@ -55,5 +85,6 @@
 
     <script src="./assets/js/response.js"></script>
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/modal.js"></script>
 </body>
 </html>
