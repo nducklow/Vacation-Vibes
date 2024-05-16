@@ -70,4 +70,6 @@ SOFTWARE.
 
 ## 5. Language
 
-Java Script
+*Java Script
+*HTML
+*CSS
