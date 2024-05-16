@@ -75,7 +75,6 @@ function getStationUsa() {
       return response.json();
     })
     .then(function (station) {
-        console.log(station[9])
         const stationName = document.createElement('h2')
         radioStream.src = station[9].url_resolved
         radioImage.src = station[9].favicon
@@ -122,7 +121,7 @@ function getStationCaribbean() {
       for (const station of data) {
         const stationName = document.createElement('h2')
         radioStream.src = station.url_resolved
-        radioImage.src = station.favicon
+        radioImage.src ="./assets/images/carribeanRadioImage.png"
         stationName.textContent = station.name
         radioStation.appendChild(stationName)
 
@@ -202,27 +201,25 @@ function getRecipeItaly() {
 
 function getStationItaly() {
 
-  const requestUrl = 'https://at1.api.radio-browser.info/json/stations/byname/Radio%20Italia%20Solo%20Musica%20Italiana'
+  const requestUrl = 'https://at1.api.radio-browser.info/json/stations/byname/rai%20radio%20tutta'
 
   fetch(requestUrl)
     .then(function (response) {
       return response.json();
     })
-    .then(function (data) {
-      for (const station of data) {
-        const stationName = document.createElement('h2')
-        radioStream.src = station.url_resolved
-        radioImage.src = station.favicon
-        stationName.textContent = station.name
-        radioStation.appendChild(stationName)
+    .then(function (station) {
+      const stationName = document.createElement('h2')
+      radioStream.src = station[2].url_resolved
+      radioImage.src ="./assets/images/italyRadioImage.png"
+      stationName.textContent = station[2].name
+      radioStation.appendChild(stationName)
 
-      }
-    });
+  });
 }
 
 function getRecipeJapan() {
 
-  const requestUrl = 'https://api.edamam.com/api/recipes/v2?type=public&app_id=5ef662a9&app_key=2b6981a6dc15a4dea4e76ee2c8291e98&cuisineType=Japanese&mealType=Dinner&dishType=Main%20course&imageSize=REGULAR&field=label&field=image&field=url'
+  const requestUrl = 'https://api.edamam.com/api/recipes/v2?type=public&q=Japanese&app_id=5ef662a9&app_key=2b6981a6dc15a4dea4e76ee2c8291e98&cuisineType=Japanese&dishType=Main%20course&imageSize=REGULAR&random=true&field=label&field=image&field=url'
 
   fetch(requestUrl)
     .then(function (response) {
@@ -247,7 +244,7 @@ function getRecipeJapan() {
 
 function getStationJapan() {
 
-  const requestUrl = 'https://api.edamam.com/api/recipes/v2?type=public&q=Japanese&app_id=5ef662a9&app_key=2b6981a6dc15a4dea4e76ee2c8291e98&cuisineType=Japanese&dishType=Main%20course&imageSize=REGULAR&random=true&field=label&field=image&field=url'
+  const requestUrl = 'https://at1.api.radio-browser.info/json/stations/bynameexact/J1%20HITS'
 
   fetch(requestUrl)
     .then(function (response) {
@@ -309,44 +306,3 @@ function getStationMiddleEast() {
       }
     });
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function getApi() {
-//   // fetch request gets a list of all the repos for the node.js organization
-//   const requestUrl = 'http://at1.api.radio-browser.info/json/stations/bytag/jpop';
-
-//   fetch(requestUrl)
-//     .then(function (response) {
-//       return response.json();
-//     })
-//     .then(function (foods) {
-//       console.log(foods.url);
-//       for (let i = 0; i < 5; i++) {
-//         console.log(foods.url[i])
-//       }
-//     });
-// }
-
-
-
