@@ -4,7 +4,9 @@
     --tcolor: #050000;
 
 } 
-
+* {
+  background-color:  #afdde5;
+}
 header {
     display: block;
     justify-content: space-between;
@@ -20,24 +22,37 @@ header {
     width: 100px; 
     height: auto;
   } 
-    
+  #regionImage {
+    float: left;
+    width:  40vw;
+    height: 40vw;
+    object-fit: cover;
+}
   nav {
     display: block;
     padding: 1%;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align: left;
+    font-size: large;
+    background-color: var(--mcolor);
+    color: var(--tcolor)
     ;
 }
  
  main { padding: 20px;
+  display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #afdde5;
+    justify-content: flex-end;
     
  }
- 
+ body {
+  justify-content: space-between;
+ }
 
-body {
+aside {
+  float: left;
 }
  
 

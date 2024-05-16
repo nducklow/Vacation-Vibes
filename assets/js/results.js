@@ -65,9 +65,7 @@ function getRecipeUsa() {
 
       }
       regionName.textContent = "USA"
-      const rImage = document.createElement('img')
-      rImage.src = "./assets/images/usa.png"
-      regionImage.appendChild(rImage)
+      regionImage.src="./assets/images/usa.png"
     });
   }
 
@@ -112,9 +110,7 @@ function getRecipeCaribbean() {
 
       }
       regionName.textContent = "Caribbean"
-      const rImage = document.createElement('img')
-      rImage.src = "./assets/images/caribbean.png"
-      regionImage.appendChild(rImage)
+      regionImage.src="./assets/images/caribbean.png"
     });
   }
 
@@ -161,9 +157,7 @@ function getRecipeIndia() {
 
       }
       regionName.textContent = "India"
-      const rImage = document.createElement('img')
-      rImage.src = "./assets/images/india.png"
-      regionImage.appendChild(rImage)
+      regionImage.src="./assets/images/india.png"
     });
   }
 
@@ -209,10 +203,7 @@ function getRecipeItaly() {
         recipe.appendChild(recipeUrl)
 
       }
-      regionName.textContent = "Italy"
-      const rImage = document.createElement('img')
-      rImage.src = "./assets/images/italy.png"
-      regionImage.appendChild(rImage)
+      regionImage.src="./assets/images/italy.png"
     });
   }
 
@@ -257,9 +248,7 @@ function getRecipeJapan() {
 
       }
       regionName.textContent = "Japan"
-      const rImage = document.createElement('img')
-      rImage.src = "./assets/images/japan.png"
-      regionImage.appendChild(rImage)
+      regionImage.src="./assets/images/japan.png"
     });
   }
 
@@ -306,9 +295,7 @@ function getRecipeMiddleEast() {
 
       }
       regionName.textContent = "Middle East"
-      const rImage = document.createElement('img')
-      rImage.src = "./assets/images/middleEast.png"
-      regionImage.appendChild(rImage)
+      regionImage.src="./assets/images/middleEast.png"
     });
   }
 
