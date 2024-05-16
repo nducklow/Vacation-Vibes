@@ -121,7 +121,7 @@ function getStationCaribbean() {
       for (const station of data) {
         const stationName = document.createElement('h2')
         radioStream.src = station.url_resolved
-        radioImage.src = station.favicon
+        radioImage.src ="./assets/images/carribeanRadioImage.png"
         stationName.textContent = station.name
         radioStation.appendChild(stationName)
 
@@ -219,7 +219,7 @@ function getStationItaly() {
 
 function getRecipeJapan() {
 
-  const requestUrl = 'https://api.edamam.com/api/recipes/v2?type=public&app_id=5ef662a9&app_key=2b6981a6dc15a4dea4e76ee2c8291e98&cuisineType=Japanese&mealType=Dinner&dishType=Main%20course&imageSize=REGULAR&field=label&field=image&field=url'
+  const requestUrl = 'https://api.edamam.com/api/recipes/v2?type=public&q=Japanese&app_id=5ef662a9&app_key=2b6981a6dc15a4dea4e76ee2c8291e98&cuisineType=Japanese&dishType=Main%20course&imageSize=REGULAR&random=true&field=label&field=image&field=url'
 
   fetch(requestUrl)
     .then(function (response) {
