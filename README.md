@@ -79,5 +79,5 @@ SOFTWARE.
 
 ## 6.  Links
 
-https://nducklow.github.io/Vacation-Vibes/
-https://github.com/users/nducklow/projects/1
+* Github https://nducklow.github.io/Vacation-Vibes/
+* Vacation Vibes Link https://github.com/users/nducklow/projects/1
