@@ -1,0 +1,44 @@
+:root { 
+     
+    --mcolor: #064652; 
+    --tcolor: #050000;
+
+} 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    background-color: var(--mcolor);
+    color: var(--tcolor)
+  }
+  
+  h1 {
+    font-size: 300%;
+  }  
+  header img { 
+    width: 100px; 
+    height: auto;
+  } 
+    
+  div {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+ 
+ 
+
+
+  .footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
