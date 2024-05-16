@@ -1,5 +1,6 @@
 # Vacation-Vibes
 
+
 ## Description 
 
 Using two separate APIs we created an app that fuses together two two things that embody a region with food and music.  In our app, you can travel to a country of your choice with a click of a button. By clicking on your favorite country you receive an image of the country, a delicious dish with its name, an image, a recipe to prepare your dish and a radio station with music to fit the vibe of your selected country. 
@@ -15,6 +16,7 @@ We are also hoping to add integration with neuralink for full immersion.
 3.  Sources
 4.  License
 5.  Language 
+6.  Links
 
 
 ## 1.  HOW TO USE
@@ -73,3 +75,9 @@ SOFTWARE.
 * Java Script
 * HTML
 * CSS
+
+
+## 6.  Links
+
+* Github https://nducklow.github.io/Vacation-Vibes/
+* Vacation Vibes Link https://github.com/users/nducklow/projects/1
