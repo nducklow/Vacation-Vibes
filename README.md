@@ -76,8 +76,13 @@ SOFTWARE.
 * HTML
 * CSS
 
+## 6. Screenshots
+![Landing-Page](https://github.com/nducklow/Vacation-Vibes/assets/163788446/065ea87b-8732-46ee-a1dd-14adddffe621) 
 
-## 6.  Links
+ ![results page](https://github.com/nducklow/Vacation-Vibes/assets/163788446/6229db8c-9b68-42f5-8954-c42083e84ea2)
+ 
+
+## 7.  Links
 
 * Github https://nducklow.github.io/Vacation-Vibes/
 * Vacation Vibes Link https://github.com/users/nducklow/projects/1
